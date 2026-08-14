@@ -1,0 +1,2027 @@
+{
+  "_format": "crop = [x, y, w, h] as fractions of image size. Derivative types: motif (crop), field (composition recrop), structure (high-contrast mono), texture (tileable surface crop), tone (graded edit: paper|amber|ink|poster|golden), palette (k-means colors).",
+  "IMG_2023": {
+    "themes": [
+      "paper-calm",
+      "module-variation"
+    ],
+    "note": "Craft beer menu: stamp-bordered boxes, engraved flight illustrations",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "flight-stamp",
+        "crop": [
+          0.13,
+          0.16,
+          0.5,
+          0.28
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "merry-go-round",
+        "crop": [
+          0.13,
+          0.47,
+          0.5,
+          0.42
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2024": {
+    "themes": [
+      "paper-calm",
+      "tactility"
+    ],
+    "note": "Tonkatsu menu: topping pills, colored-pencil illustration",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "topping-pills",
+        "crop": [
+          0.0,
+          0.4,
+          1.0,
+          0.22
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2025": {
+    "themes": [
+      "tactility"
+    ],
+    "note": "Physical SOLD OUT sticker over laminate",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "sold-out-sticker",
+        "crop": [
+          0.15,
+          0.22,
+          0.75,
+          0.3
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2026": {
+    "themes": [
+      "paper-calm",
+      "market-density"
+    ],
+    "note": "Menu lore block: pink header + hand-drawn set plate",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "kurobuta-plate",
+        "crop": [
+          0.3,
+          0.13,
+          0.65,
+          0.4
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2029": {
+    "themes": [
+      "paper-calm"
+    ],
+    "note": "Photo-book cover: translucent color blocks, obi band",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "color-blocks",
+        "crop": [
+          0.2,
+          0.12,
+          0.65,
+          0.42
+        ]
+      },
+      {
+        "type": "field",
+        "name": "cover-composition",
+        "crop": [
+          0.13,
+          0.05,
+          0.78,
+          0.75
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2030": {
+    "themes": [
+      "module-variation",
+      "tactility"
+    ],
+    "note": "Brick facade close: grid + louver edge",
+    "derivatives": [
+      {
+        "type": "texture",
+        "name": "brick-field",
+        "crop": [
+          0.05,
+          0.05,
+          0.5,
+          0.35
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "facade-grid"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2031": {
+    "themes": [
+      "module-variation"
+    ],
+    "note": "Brick office wide: horizontal banding, full-height louver stripe",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "louver-stripe",
+        "crop": [
+          0.62,
+          0.0,
+          0.28,
+          0.75
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "banding"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2032": {
+    "themes": [
+      "module-variation",
+      "line-and-arc"
+    ],
+    "note": "Roofline of irregular vertical timber fins",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "timber-fins",
+        "crop": [
+          0.25,
+          0.3,
+          0.6,
+          0.28
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "fin-rhythm"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2033": {
+    "themes": [
+      "module-variation",
+      "market-density"
+    ],
+    "note": "Pleated garment wall: silhouette grid, spectrum",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "spectrum-grid",
+        "crop": [
+          0.05,
+          0.18,
+          0.9,
+          0.6
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 10,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2036": {
+    "themes": [
+      "module-variation",
+      "line-and-arc"
+    ],
+    "note": "White apartments: semicircular balcony modules",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "curved-balconies",
+        "crop": [
+          0.3,
+          0.25,
+          0.55,
+          0.55
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "balcony-grid"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2037": {
+    "themes": [
+      "module-variation",
+      "tactility",
+      "visible-care"
+    ],
+    "note": "Diagonal timber lattice building: structure as facade",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "lattice-volume",
+        "crop": [
+          0.2,
+          0.2,
+          0.6,
+          0.6
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "lattice-weave",
+        "crop": [
+          0.35,
+          0.35,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "weave"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2038": {
+    "themes": [
+      "signage-systems",
+      "line-and-arc"
+    ],
+    "note": "Uniform white disc signs on slat fence with ivy",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "disc-rail",
+        "crop": [
+          0.1,
+          0.33,
+          0.85,
+          0.35
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2040": {
+    "themes": [
+      "paper-calm"
+    ],
+    "note": "Station plaza: canopy line, pastel paving grid",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "plaza",
+        "crop": [
+          0.0,
+          0.3,
+          1.0,
+          0.5
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2041": {
+    "themes": [
+      "paper-calm",
+      "tactility",
+      "light-as-animator"
+    ],
+    "note": "Interior: concrete + oak table + plants, warm calm",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "table-scene",
+        "crop": [
+          0.25,
+          0.1,
+          0.7,
+          0.45
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2042": {
+    "themes": [
+      "line-and-arc",
+      "signage-systems"
+    ],
+    "note": "Etched floor directory: building section as arch modules",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "directory-etch",
+        "crop": [
+          0.2,
+          0.03,
+          0.65,
+          0.85
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "etch-lines"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2043": {
+    "themes": [
+      "line-and-arc",
+      "tactility",
+      "module-variation"
+    ],
+    "note": "Porcelain 901 plaque: quarter-circle relief, hand-inked squiggle",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "porcelain-901",
+        "crop": [
+          0.28,
+          0.2,
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2044": {
+    "themes": [
+      "paper-calm",
+      "line-and-arc"
+    ],
+    "note": "Hotel book page: arch-framed vignettes, letterpress italic",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "arch-vignettes",
+        "crop": [
+          0.1,
+          0.32,
+          0.78,
+          0.28
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "k": 5,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2045": {
+    "themes": [
+      "line-and-arc",
+      "paper-calm"
+    ],
+    "note": "Distillation diagram: thin-line technical drawing",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "distill-diagram",
+        "crop": [
+          0.08,
+          0.08,
+          0.65,
+          0.35
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "diagram-lines",
+        "crop": [
+          0.08,
+          0.08,
+          0.65,
+          0.35
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2046": {
+    "themes": [
+      "paper-calm"
+    ],
+    "note": "Editorial spread: forest photo, vertical text columns",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "spread",
+        "crop": [
+          0.05,
+          0.02,
+          0.9,
+          0.9
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2047": {
+    "themes": [
+      "line-and-arc"
+    ],
+    "note": "Circular-economy diagram from semicircles/triangles/arches",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "geo-diagram",
+        "crop": [
+          0.15,
+          0.08,
+          0.6,
+          0.4
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "geo-lines",
+        "crop": [
+          0.15,
+          0.08,
+          0.6,
+          0.4
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2048": {
+    "themes": [
+      "paper-calm",
+      "light-as-animator"
+    ],
+    "note": "\u6d6e\u904a calligraphy over milky teal water",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "milky-teal",
+        "crop": [
+          0.05,
+          0.3,
+          0.9,
+          0.5
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "calligraphy",
+        "crop": [
+          0.1,
+          0.13,
+          0.25,
+          0.25
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 5,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2049": {
+    "themes": [
+      "light-as-animator"
+    ],
+    "note": "Oil lamps: warm points in darkness",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "lamp-point",
+        "crop": [
+          0.45,
+          0.3,
+          0.5,
+          0.35
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "lamp",
+        "crop": [
+          0.45,
+          0.3,
+          0.5,
+          0.35
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2050": {
+    "themes": [
+      "module-variation",
+      "line-and-arc",
+      "tactility"
+    ],
+    "note": "Kutani room signs: lines+arcs only, each slightly different \u2014 the anchor concept",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "kutani-plaques",
+        "crop": [
+          0.05,
+          0.27,
+          0.9,
+          0.5
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "line-arc-geometry",
+        "crop": [
+          0.05,
+          0.27,
+          0.9,
+          0.5
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "porcelain",
+        "crop": [
+          0.15,
+          0.38,
+          0.3,
+          0.25
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "paper",
+        "recipe": "paper"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "porcelain",
+        "crop": [
+          0.15,
+          0.38,
+          0.3,
+          0.25
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2051": {
+    "themes": [
+      "tactility",
+      "light-as-animator"
+    ],
+    "note": "Textured panels spotlit on dark wall",
+    "derivatives": [
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2052": {
+    "themes": [
+      "light-as-animator",
+      "line-and-arc",
+      "module-variation"
+    ],
+    "note": "Night arch-window hotel: glowing arcade stack",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "arch-glow",
+        "crop": [
+          0.42,
+          0.28,
+          0.33,
+          0.55
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "arch-glow",
+        "crop": [
+          0.42,
+          0.28,
+          0.33,
+          0.55
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2053": {
+    "themes": [
+      "module-variation"
+    ],
+    "note": "Dept store from above: tile grid, barrel vault",
+    "derivatives": [
+      {
+        "type": "structure",
+        "name": "block-grid"
+      },
+      {
+        "type": "field",
+        "name": "massing",
+        "crop": [
+          0.1,
+          0.1,
+          0.85,
+          0.75
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2054": {
+    "themes": [
+      "paper-calm"
+    ],
+    "note": "Park canopy + moon, layered haze",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "canopy-haze",
+        "crop": [
+          0.0,
+          0.05,
+          1.0,
+          0.9
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 5,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2055": {
+    "themes": [
+      "signage-systems",
+      "market-density",
+      "module-variation"
+    ],
+    "note": "Clipboard menu system: numbered tags, sold-out sticker, neon accent",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "clipboard-row",
+        "crop": [
+          0.05,
+          0.3,
+          0.9,
+          0.2
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "neon-overhere",
+        "crop": [
+          0.55,
+          0.47,
+          0.35,
+          0.15
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2056": {
+    "themes": [
+      "module-variation",
+      "tactility"
+    ],
+    "note": "Extruded brown window boxes on speckled stone",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "window-box",
+        "crop": [
+          0.45,
+          0.1,
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "speckled-stone",
+        "crop": [
+          0.0,
+          0.55,
+          0.35,
+          0.3
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "box-rhythm"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2057": {
+    "themes": [
+      "tactility",
+      "market-density"
+    ],
+    "note": "Hand-painted A-frame: yellow circle, script, mosaic floor",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "hand-sign",
+        "crop": [
+          0.3,
+          0.12,
+          0.5,
+          0.55
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "mosaic-floor",
+        "crop": [
+          0.55,
+          0.55,
+          0.45,
+          0.4
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2058": {
+    "themes": [
+      "market-density",
+      "light-as-animator"
+    ],
+    "note": "Bar interior: organized clutter, one glowing lamp",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "warm-clutter",
+        "crop": [
+          0.2,
+          0.1,
+          0.75,
+          0.7
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2060": {
+    "themes": [
+      "module-variation",
+      "tactility"
+    ],
+    "note": "Handmade tiles, one carrying the etched logo",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "maker-tile",
+        "crop": [
+          0.1,
+          0.24,
+          0.38,
+          0.24
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "glaze-tiles",
+        "crop": [
+          0.45,
+          0.35,
+          0.5,
+          0.45
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "tile",
+        "crop": [
+          0.45,
+          0.35,
+          0.5,
+          0.45
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2061": {
+    "themes": [
+      "tactility",
+      "module-variation"
+    ],
+    "note": "Mosaic band meets oak counter: glaze \u00d7 grain",
+    "derivatives": [
+      {
+        "type": "texture",
+        "name": "mosaic-band",
+        "crop": [
+          0.05,
+          0.05,
+          0.85,
+          0.35
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "oak-grain",
+        "crop": [
+          0.15,
+          0.55,
+          0.7,
+          0.4
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "junction",
+        "crop": [
+          0.0,
+          0.25,
+          1.0,
+          0.45
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "oak",
+        "crop": [
+          0.15,
+          0.55,
+          0.7,
+          0.4
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2062": {
+    "themes": [
+      "light-as-animator"
+    ],
+    "note": "Night street: lit stair tower over machiya",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "lit-tower",
+        "crop": [
+          0.25,
+          0.28,
+          0.35,
+          0.4
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "night",
+        "crop": [
+          0.25,
+          0.28,
+          0.35,
+          0.4
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2063": {
+    "themes": [
+      "light-as-animator",
+      "module-variation"
+    ],
+    "note": "Zigzag stair stacks glowing \u2014 repetition + internal light",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "zigzag-stack",
+        "crop": [
+          0.15,
+          0.1,
+          0.7,
+          0.75
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "zigzag-rhythm"
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2073": {
+    "themes": [
+      "visible-care",
+      "paper-calm"
+    ],
+    "note": "Kenrokuen: composed nature, moss ground",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "garden",
+        "crop": [
+          0.05,
+          0.1,
+          0.9,
+          0.85
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2074": {
+    "themes": [
+      "visible-care"
+    ],
+    "note": "Teahouse roofline interlocking with pine",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "roof-pine",
+        "crop": [
+          0.0,
+          0.5,
+          1.0,
+          0.5
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2075": {
+    "themes": [
+      "visible-care"
+    ],
+    "note": "Pine held by timber props \u2014 care made visible",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "propped-pine",
+        "crop": [
+          0.25,
+          0.35,
+          0.6,
+          0.5
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2076": {
+    "themes": [
+      "visible-care",
+      "tactility"
+    ],
+    "note": "Exposed root flare + props",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "root-flare",
+        "crop": [
+          0.2,
+          0.45,
+          0.65,
+          0.45
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2077": {
+    "themes": [
+      "signage-systems",
+      "paper-calm"
+    ],
+    "note": "Wood sign: vertical calligraphy, four languages, QR in wood",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "wood-sign",
+        "crop": [
+          0.05,
+          0.05,
+          0.9,
+          0.7
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 5,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2078": {
+    "themes": [
+      "light-as-animator"
+    ],
+    "note": "Statue silhouette against bright cloud",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "silhouette",
+        "crop": [
+          0.35,
+          0.2,
+          0.4,
+          0.4
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "ink",
+        "recipe": "ink"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2079": {
+    "themes": [
+      "visible-care",
+      "module-variation"
+    ],
+    "note": "Web of support poles through branches",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "prop-web",
+        "crop": [
+          0.1,
+          0.15,
+          0.8,
+          0.6
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "prop-lines"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2080": {
+    "themes": [
+      "line-and-arc",
+      "tactility"
+    ],
+    "note": "Round engraved stone monument in rough rocks",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "round-stele",
+        "crop": [
+          0.13,
+          0.2,
+          0.5,
+          0.38
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "rock",
+        "crop": [
+          0.55,
+          0.45,
+          0.4,
+          0.35
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2082": {
+    "themes": [
+      "visible-care"
+    ],
+    "note": "Prop tripod meeting trunk overhead",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "prop-tripod",
+        "crop": [
+          0.3,
+          0.15,
+          0.65,
+          0.7
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "tripod-lines"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2083": {
+    "themes": [
+      "module-variation",
+      "tactility"
+    ],
+    "note": "Machiya: multiple slat-grid densities on one facade",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "grid-facades",
+        "crop": [
+          0.2,
+          0.15,
+          0.55,
+          0.5
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "grid-density"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "slats",
+        "crop": [
+          0.2,
+          0.15,
+          0.55,
+          0.5
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2086": {
+    "themes": [
+      "tactility",
+      "module-variation"
+    ],
+    "note": "Machiya close: lattice window, weathered planks",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "lattice-window",
+        "crop": [
+          0.15,
+          0.2,
+          0.55,
+          0.3
+        ]
+      },
+      {
+        "type": "texture",
+        "name": "weathered-planks",
+        "crop": [
+          0.6,
+          0.3,
+          0.35,
+          0.35
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "plank-rhythm"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2088": {
+    "themes": [
+      "signage-systems",
+      "tactility",
+      "visible-care"
+    ],
+    "note": "Preservation plaques: bronze + verdigris in wood frames",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "plaque-pair",
+        "crop": [
+          0.3,
+          0.05,
+          0.45,
+          0.5
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "patina",
+        "crop": [
+          0.3,
+          0.05,
+          0.45,
+          0.5
+        ],
+        "k": 8
+      }
+    ]
+  },
+  "IMG_2089": {
+    "themes": [
+      "tactility",
+      "paper-calm"
+    ],
+    "note": "Samurai-district gate: planks, plaster, leaves on dark stone",
+    "derivatives": [
+      {
+        "type": "texture",
+        "name": "plank-gate",
+        "crop": [
+          0.15,
+          0.2,
+          0.55,
+          0.4
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "leaf-scatter",
+        "crop": [
+          0.0,
+          0.65,
+          0.6,
+          0.3
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2090": {
+    "themes": [
+      "line-and-arc",
+      "module-variation"
+    ],
+    "note": "Circular canopy with radial timber fins, corten below",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "radial-fins",
+        "crop": [
+          0.0,
+          0.0,
+          0.75,
+          0.55
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "radial-rhythm"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2091": {
+    "themes": [
+      "tactility"
+    ],
+    "note": "Navy slats vs rough stucco, rusted rail",
+    "derivatives": [
+      {
+        "type": "texture",
+        "name": "stucco",
+        "crop": [
+          0.0,
+          0.55,
+          0.45,
+          0.4
+        ]
+      },
+      {
+        "type": "motif",
+        "name": "slat-junction",
+        "crop": [
+          0.35,
+          0.1,
+          0.6,
+          0.6
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2092": {
+    "themes": [
+      "tactility"
+    ],
+    "note": "Red door as the single saturated accent",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "red-door",
+        "crop": [
+          0.1,
+          0.2,
+          0.35,
+          0.4
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "red-door",
+        "crop": [
+          0.1,
+          0.2,
+          0.35,
+          0.4
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2093": {
+    "themes": [
+      "light-as-animator",
+      "module-variation"
+    ],
+    "note": "Golden-hour zigzag balconies: color moving across modules",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "golden-zigzag",
+        "crop": [
+          0.25,
+          0.1,
+          0.6,
+          0.6
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "golden",
+        "recipe": "golden"
+      },
+      {
+        "type": "structure",
+        "name": "balcony-zigzag"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "golden",
+        "crop": [
+          0.25,
+          0.1,
+          0.6,
+          0.6
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2095": {
+    "themes": [
+      "light-as-animator"
+    ],
+    "note": "Night: warm window rectangles over ryokan roof",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "warm-windows",
+        "crop": [
+          0.25,
+          0.15,
+          0.7,
+          0.5
+        ]
+      },
+      {
+        "type": "tone",
+        "name": "amber",
+        "recipe": "amber"
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      },
+      {
+        "type": "palette",
+        "name": "warm-win",
+        "crop": [
+          0.25,
+          0.15,
+          0.7,
+          0.5
+        ],
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2098": {
+    "themes": [
+      "line-and-arc"
+    ],
+    "note": "Station: glass dome canopy + crosswalk stripes",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "dome-canopy",
+        "crop": [
+          0.25,
+          0.38,
+          0.55,
+          0.25
+        ]
+      },
+      {
+        "type": "field",
+        "name": "plaza-graphic",
+        "crop": [
+          0.0,
+          0.3,
+          1.0,
+          0.65
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2101": {
+    "themes": [
+      "market-density",
+      "paper-calm"
+    ],
+    "note": "Yokai ukiyo-e parody: flat color, red accent flags",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "print",
+        "crop": [
+          0.25,
+          0.12,
+          0.65,
+          0.45
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 8,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "flags",
+        "crop": [
+          0.25,
+          0.12,
+          0.65,
+          0.45
+        ],
+        "k": 10
+      }
+    ]
+  },
+  "IMG_2102": {
+    "themes": [
+      "market-density",
+      "module-variation"
+    ],
+    "note": "Hanafuda card grid: collection as display",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "card-grid",
+        "crop": [
+          0.1,
+          0.22,
+          0.85,
+          0.35
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 8,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "cards",
+        "crop": [
+          0.1,
+          0.22,
+          0.85,
+          0.35
+        ],
+        "k": 8
+      }
+    ]
+  },
+  "IMG_2103": {
+    "themes": [
+      "market-density"
+    ],
+    "note": "Kawaii toy shelf: density with order",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "shelf",
+        "crop": [
+          0.15,
+          0.1,
+          0.8,
+          0.7
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 8,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2104": {
+    "themes": [
+      "market-density"
+    ],
+    "note": "Toy laptop UI: full kawaii design language",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "kawaii-ui",
+        "crop": [
+          0.08,
+          0.28,
+          0.85,
+          0.42
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 10,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "kawaii-ui",
+        "crop": [
+          0.08,
+          0.28,
+          0.85,
+          0.42
+        ],
+        "k": 10
+      }
+    ]
+  },
+  "IMG_2105": {
+    "themes": [
+      "market-density"
+    ],
+    "note": "Rilakkuma packaging wall",
+    "derivatives": [
+      {
+        "type": "palette",
+        "k": 8,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2106": {
+    "themes": [
+      "market-density",
+      "signage-systems"
+    ],
+    "note": "Character lore sheet: name/role/story per character",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "lore-cards",
+        "crop": [
+          0.15,
+          0.05,
+          0.55,
+          0.75
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2107": {
+    "themes": [
+      "market-density"
+    ],
+    "note": "Stationery shelf density",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "notebook-grid",
+        "crop": [
+          0.0,
+          0.05,
+          1.0,
+          0.7
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 8,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2108": {
+    "themes": [
+      "market-density"
+    ],
+    "note": "Holographic notebook covers",
+    "derivatives": [
+      {
+        "type": "field",
+        "name": "holo-covers",
+        "crop": [
+          0.0,
+          0.1,
+          1.0,
+          0.6
+        ]
+      },
+      {
+        "type": "palette",
+        "name": "all",
+        "k": 6
+      }
+    ]
+  },
+  "IMG_2110": {
+    "themes": [
+      "market-density",
+      "module-variation"
+    ],
+    "note": "SMISKI blind-box grid: two-tone boxes, stacked",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "box-grid",
+        "crop": [
+          0.0,
+          0.42,
+          1.0,
+          0.3
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      },
+      {
+        "type": "palette",
+        "name": "boxes",
+        "crop": [
+          0.0,
+          0.42,
+          1.0,
+          0.3
+        ],
+        "k": 8
+      }
+    ]
+  },
+  "IMG_2111": {
+    "themes": [
+      "market-density",
+      "module-variation"
+    ],
+    "note": "Blind-box close: character peeking over box edge",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "peek-box",
+        "crop": [
+          0.03,
+          0.18,
+          0.65,
+          0.42
+        ]
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  },
+  "IMG_2113": {
+    "themes": [
+      "visible-care",
+      "line-and-arc",
+      "signage-systems"
+    ],
+    "note": "Haneda fire hydrant: function displayed like a product",
+    "derivatives": [
+      {
+        "type": "motif",
+        "name": "hose-ring",
+        "crop": [
+          0.28,
+          0.25,
+          0.45,
+          0.55
+        ]
+      },
+      {
+        "type": "structure",
+        "name": "ring-graphic"
+      },
+      {
+        "type": "palette",
+        "k": 6,
+        "name": "all"
+      }
+    ]
+  }
+}

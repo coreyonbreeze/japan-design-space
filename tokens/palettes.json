@@ -1,0 +1,537 @@
+{
+ "$description": "Senko \u7dda\u5f27 curated palettes. Canonical source: workbench/src/senko/palettes.ts; raw per-photo extractions in library/palettes.json.",
+ "palettes": [
+  {
+   "id": "paper",
+   "title": "Paper \u7d19",
+   "description": "The quiet grounds \u2014 menus, the hotel book, the photo-book cover.",
+   "colors": [
+    {
+     "name": "paper-0",
+     "value": "#FAF7EF",
+     "source": [
+      "IMG_2044",
+      "IMG_2029"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#DCD9C7",
+      "frame": "IMG_2029",
+      "region": "all",
+      "distance": 58
+     }
+    },
+    {
+     "name": "paper-1",
+     "value": "#F3EEE2",
+     "source": [
+      "IMG_2023",
+      "IMG_2024"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#D4D1D0",
+      "frame": "IMG_2024",
+      "region": "all",
+      "distance": 46
+     }
+    },
+    {
+     "name": "paper-2",
+     "value": "#E5DDCB",
+     "source": [
+      "IMG_2044"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#D9D5C8",
+      "frame": "IMG_2044",
+      "region": "all"
+     }
+    },
+    {
+     "name": "paper-3",
+     "value": "#D5CDB8",
+     "source": [
+      "IMG_2029"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#CDCAB9",
+      "frame": "IMG_2029",
+      "region": "all"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sumi",
+   "title": "Sumi \u58a8",
+   "description": "The inks \u2014 machiya slats, the statue, the hydrant ring.",
+   "colors": [
+    {
+     "name": "ink-950",
+     "value": "#14161A",
+     "source": [
+      "IMG_2049",
+      "IMG_2062"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#18130F",
+      "frame": "IMG_2062",
+      "region": "all"
+     }
+    },
+    {
+     "name": "ink-900",
+     "value": "#22262E",
+     "source": [
+      "IMG_2091",
+      "IMG_2113"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#353231",
+      "frame": "IMG_2113",
+      "region": "all",
+      "distance": 23
+     }
+    },
+    {
+     "name": "ink-700",
+     "value": "#343A44",
+     "source": [
+      "IMG_2083"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#37393E",
+      "frame": "IMG_2083",
+      "region": "slats"
+     }
+    },
+    {
+     "name": "ink-500",
+     "value": "#5A626E",
+     "source": [
+      "IMG_2031"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#6E686A",
+      "frame": "IMG_2031",
+      "region": "all",
+      "distance": 21
+     }
+    },
+    {
+     "name": "ink-300",
+     "value": "#9AA1AB",
+     "source": [
+      "IMG_2089"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#A4A6A3",
+      "frame": "IMG_2089",
+      "region": "all"
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "Craft \u5de5",
+   "description": "Porcelain, glaze, grout, oak, walnut \u2014 surfaces with hands in their history.",
+   "colors": [
+    {
+     "name": "glaze-0",
+     "value": "#EFEAE0",
+     "source": [
+      "IMG_2050",
+      "IMG_2060"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#E5E5E4",
+      "frame": "IMG_2050",
+      "region": "all"
+     }
+    },
+    {
+     "name": "glaze-1",
+     "value": "#E2DCCE",
+     "source": [
+      "IMG_2061"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#E8BB82",
+      "frame": "IMG_2061",
+      "region": "oak",
+      "distance": 83
+     }
+    },
+    {
+     "name": "grout",
+     "value": "#C8BBA8",
+     "source": [
+      "IMG_2060"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#BBB0A0",
+      "frame": "IMG_2060",
+      "region": "tile",
+      "distance": 19
+     }
+    },
+    {
+     "name": "hinoki",
+     "value": "#C9A87C",
+     "source": [
+      "IMG_2061",
+      "IMG_2077"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#D0A875",
+      "frame": "IMG_2061",
+      "region": "all"
+     }
+    },
+    {
+     "name": "walnut",
+     "value": "#6A5849",
+     "source": [
+      "IMG_2023",
+      "IMG_2086"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#6A5849",
+      "frame": "IMG_2023",
+      "region": "all"
+     }
+    }
+   ]
+  },
+  {
+   "id": "garden",
+   "title": "Garden \u5ead",
+   "description": "Kenrokuen moss, the milky bath, the plaque's patina.",
+   "colors": [
+    {
+     "name": "moss-600",
+     "value": "#65746E",
+     "source": [
+      "IMG_2073"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#65746E",
+      "frame": "IMG_2073",
+      "region": "all"
+     }
+    },
+    {
+     "name": "moss-400",
+     "value": "#879379",
+     "source": [
+      "IMG_2073",
+      "IMG_2075"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#879379",
+      "frame": "IMG_2073",
+      "region": "all"
+     }
+    },
+    {
+     "name": "verdigris",
+     "value": "#7BA08F",
+     "source": [
+      "IMG_2088"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#847C77",
+      "frame": "IMG_2088",
+      "region": "all",
+      "distance": 44
+     }
+    },
+    {
+     "name": "teal-milk",
+     "value": "#688488",
+     "source": [
+      "IMG_2048"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#688488",
+      "frame": "IMG_2048",
+      "region": "all"
+     }
+    }
+   ]
+  },
+  {
+   "id": "light",
+   "title": "Light \u5149",
+   "description": "The amber ramp of night windows and lamps, golden hour, and the one saturated accent.",
+   "colors": [
+    {
+     "name": "amber-300",
+     "value": "#F5C168",
+     "source": [
+      "IMG_2052"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#EEBD6E",
+      "frame": "IMG_2052",
+      "region": "arch-glow"
+     }
+    },
+    {
+     "name": "amber-500",
+     "value": "#E8A33D",
+     "source": [
+      "IMG_2052",
+      "IMG_2049"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#D29B48",
+      "frame": "IMG_2052",
+      "region": "all",
+      "distance": 26
+     }
+    },
+    {
+     "name": "amber-700",
+     "value": "#B97722",
+     "source": [
+      "IMG_2095"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#BA8553",
+      "frame": "IMG_2095",
+      "region": "warm-win",
+      "distance": 51
+     }
+    },
+    {
+     "name": "gold-dusk",
+     "value": "#C97B2D",
+     "source": [
+      "IMG_2093"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#846B51",
+      "frame": "IMG_2093",
+      "region": "golden",
+      "distance": 79
+     }
+    },
+    {
+     "name": "vermillion",
+     "value": "#A93A2C",
+     "source": [
+      "IMG_2092",
+      "IMG_2101"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#824E47",
+      "frame": "IMG_2101",
+      "region": "flags",
+      "distance": 51
+     }
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "title": "Market \u5e02",
+   "description": "The kawaii shelves \u2014 blind boxes, hanafuda, the toy laptop.",
+   "colors": [
+    {
+     "name": "sun",
+     "value": "#EDD94A",
+     "source": [
+      "IMG_2110",
+      "IMG_2111"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#E7D855",
+      "frame": "IMG_2110",
+      "region": "boxes"
+     }
+    },
+    {
+     "name": "sky",
+     "value": "#9FD3E8",
+     "source": [
+      "IMG_2111",
+      "IMG_2104"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#C8CDCD",
+      "frame": "IMG_2104",
+      "region": "kawaii-ui",
+      "distance": 49
+     }
+    },
+    {
+     "name": "sakura",
+     "value": "#F2C6D3",
+     "source": [
+      "IMG_2104",
+      "IMG_2105"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#DFE2CD",
+      "frame": "IMG_2104",
+      "region": "all",
+      "distance": 34
+     }
+    },
+    {
+     "name": "mint",
+     "value": "#BCDCC0",
+     "source": [
+      "IMG_2103"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#D1CFC8",
+      "frame": "IMG_2103",
+      "region": "all",
+      "distance": 26
+     }
+    },
+    {
+     "name": "grape",
+     "value": "#6E5497",
+     "source": [
+      "IMG_2102"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#6B6567",
+      "frame": "IMG_2102",
+      "region": "all",
+      "distance": 51
+     }
+    }
+   ]
+  },
+  {
+   "id": "night",
+   "title": "Night \u591c",
+   "description": "The observed dark mode: sumi grounds, paper ink, amber as the accent.",
+   "colors": [
+    {
+     "name": "ground",
+     "value": "#14161A",
+     "source": [
+      "IMG_2049"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#3C3B3A",
+      "frame": "IMG_2049",
+      "region": "lamp",
+      "distance": 63
+     }
+    },
+    {
+     "name": "surface",
+     "value": "#22262E",
+     "source": [
+      "IMG_2062"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#2D2A27",
+      "frame": "IMG_2062",
+      "region": "night"
+     }
+    },
+    {
+     "name": "raised",
+     "value": "#343A44",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "ink",
+     "value": "#F3EEE2",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "glow",
+     "value": "#E8A33D",
+     "source": [
+      "IMG_2052"
+     ],
+     "derivation": "adjusted",
+     "measured": {
+      "value": "#D29B48",
+      "frame": "IMG_2052",
+      "region": "all",
+      "distance": 26
+     }
+    }
+   ]
+  },
+  {
+   "id": "matsuri",
+   "title": "Matsuri \u796d",
+   "description": "Market \u00d7 night \u2014 the lantern-lit night market.",
+   "colors": [
+    {
+     "name": "ground",
+     "value": "#241F35",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "surface",
+     "value": "#2A2440",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "raised",
+     "value": "#3A3358",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "ink",
+     "value": "#F5EFDC",
+     "derivation": "extrapolated"
+    },
+    {
+     "name": "glow",
+     "value": "#EDD94A",
+     "source": [
+      "IMG_2110"
+     ],
+     "derivation": "measured",
+     "measured": {
+      "value": "#E7D855",
+      "frame": "IMG_2110",
+      "region": "boxes"
+     }
+    }
+   ]
+  }
+ ]
+}

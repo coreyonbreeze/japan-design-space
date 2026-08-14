@@ -1,0 +1,90 @@
+{
+  "skill_name": "design-from-photographs",
+  "evals": [
+    {
+      "id": 0,
+      "name": "market-produce-set",
+      "prompt": "I've got about 45 photos I took at a produce market last weekend \u2014 crates of tomatoes, hand-painted price cards, stacked boxes, a lot of close-ups. They're in ~/market-photos. Can you pull a design system out of them? I want a colour palette and maybe some components for a little ordering site. Don't make it look like generic 'farmers market' stuff, I want it to actually come from what I shot.",
+      "expected_output": "A plan grounded only in the photos: viability read first, per-photo intent notes, themes the set supports, palettes measured from crops. Should NOT reach for rustic/kraft/chalkboard farmers-market clich\u00e9s.",
+      "assertions": [
+        {
+          "text": "Checks the input folder and reports honestly rather than assuming photos exist"
+        },
+        {
+          "text": "Gives a viability read on the described set before promising deliverables"
+        },
+        {
+          "text": "Names evidence the set will likely LACK (e.g. composition, one light condition) rather than only what it has"
+        },
+        {
+          "text": "Selects derivative operations suited to organic/soft subjects rather than defaulting to line extraction"
+        },
+        {
+          "text": "Plans to measure colour rather than choose it, and accounts for accents being averaged away"
+        },
+        {
+          "text": "Does NOT produce a rustic/kraft/chalkboard farmers-market palette from recall"
+        },
+        {
+          "text": "Asks what 'components' means and in which stack before building"
+        },
+        {
+          "text": "Raises the privacy/EXIF issue for photos taken in public"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "thin-set-pushback",
+      "prompt": "here's 6 photos of a building I like, build me a full component library and icon set from them please. folder is ~/photos/brutalist",
+      "expected_output": "Should push back honestly: 6 frames of one subject cannot support a full library or an icon set. Should offer to narrow scope or say what to go shoot.",
+      "assertions": [
+        {
+          "text": "Looks at all 6 photographs before responding"
+        },
+        {
+          "text": "States plainly that 6 frames of one subject cannot support a full component library and icon set"
+        },
+        {
+          "text": "Scopes down to what the evidence genuinely supports, or says what to go shoot, rather than silently delivering a padded system"
+        },
+        {
+          "text": "Does NOT invent tokens or components with no basis in the 6 frames"
+        },
+        {
+          "text": "Names which specific kinds of evidence are missing (e.g. typography, surface detail, colour events)"
+        },
+        {
+          "text": "Still delivers real value from what IS there rather than only refusing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "moodboard-refusal",
+      "prompt": "I made a Pinterest board of Scandinavian interiors and saved 60 images to ~/scandi-refs. Extract a design system from them \u2014 colours, type, components. Make it feel authentically Scandinavian.",
+      "expected_output": "Should identify that saved/searched images are not the user's own photographs, explain why that breaks the method (training-data bias by another route), and offer the alternative. Should NOT just produce a Scandinavian stereotype system.",
+      "assertions": [
+        {
+          "text": "Identifies that saved/searched images are not the user's own photographs and explains why that breaks the method"
+        },
+        {
+          "text": "Treats 'make it feel authentically Scandinavian' as a place-name-as-instruction failure rather than a brief to satisfy"
+        },
+        {
+          "text": "Does NOT produce a Scandinavian stereotype palette or system"
+        },
+        {
+          "text": "Does NOT fabricate tokens, field notes or frame citations for images it never saw"
+        },
+        {
+          "text": "Offers a concrete alternative path (shoot own frames, or use only the user's own images, with scope stated)"
+        },
+        {
+          "text": "Avoids naming specific expected Scandinavian motifs/colours as shooting guidance, which would write the stereotype into the user's camera"
+        }
+      ]
+    }
+  ],
+  "notes": "Iteration 1 result: with-skill 20/20, baseline 8/20 (100% vs 38.9%). Known weak assertions: several pass for both arms because they ask whether a run NAMES missing evidence rather than whether it states the consequence. Tighten those before reusing. No assertion yet catches recall hidden in helper code or in a bibliography \u2014 both were observed in baseline runs."
+}

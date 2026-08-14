@@ -1,0 +1,34 @@
+Japan Design Space — licensing scope
+====================================
+
+This repository contains two kinds of work under two different licences.
+
+
+MIT — code and written content
+------------------------------
+See LICENSE.
+
+  workbench/          the Senko component library and the screens demo
+  pipeline/           the extraction, verification and privacy scripts
+  tokens/             the design tokens
+  .claude/skills/     the design-from-photographs skill
+  registry.json, README.md, plan.md, field-notes.md, NOTICE
+
+
+CC BY 4.0 — photographs and images derived from them
+----------------------------------------------------
+See LICENSE-PHOTOS.
+
+  photos/preview/        the source photographs
+  library/derivatives/   crops, structure pulls, textures, tone studies and
+                         palette swatches generated from those photographs
+
+
+Why the split
+-------------
+The code is meant to be taken and used without ceremony, so it is MIT. The
+photographs are someone's own frames of real streets and shopfronts, so they
+carry an attribution requirement and a short note about what the licence does
+and does not cover. Reading LICENSE-PHOTOS takes a minute and is worth it if
+you intend to reproduce a depicted work rather than use a photograph as
+reference.

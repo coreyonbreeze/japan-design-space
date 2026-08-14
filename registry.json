@@ -1,0 +1,128 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "senko",
+  "homepage": "https://github.com/coreyonbreeze/japan-design-space",
+  "items": [
+    {
+      "name": "senko-tokens",
+      "type": "registry:style",
+      "title": "Senko 線弧 tokens",
+      "description": "Observed color/geometry/motion tokens with paper & market registers. Sources cited per token.",
+      "files": [{ "path": "tokens/senko.css", "type": "registry:style" }]
+    },
+    {
+      "name": "senko-primitives",
+      "type": "registry:lib",
+      "title": "Motion primitives",
+      "description": "useKiln seeded variation, Ignite, Cascade, Sheen, Settle, useChime stub.",
+      "dependencies": ["motion"],
+      "files": [
+        { "path": "workbench/src/senko/lib.ts", "type": "registry:lib" },
+        { "path": "workbench/src/senko/primitives/kiln.ts", "type": "registry:lib" },
+        { "path": "workbench/src/senko/primitives/Ignite.tsx", "type": "registry:component" },
+        { "path": "workbench/src/senko/primitives/Cascade.tsx", "type": "registry:component" },
+        { "path": "workbench/src/senko/primitives/Sheen.tsx", "type": "registry:component" },
+        { "path": "workbench/src/senko/primitives/Settle.tsx", "type": "registry:component" },
+        { "path": "workbench/src/senko/primitives/chime.ts", "type": "registry:lib" }
+      ]
+    },
+    {
+      "name": "kiln-plaque",
+      "type": "registry:component",
+      "description": "Generative line+arc identity mark; unique per seed, unmistakably in-system. IMG_2050/2043.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/KilnPlaque.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "sign-disc",
+      "type": "registry:component",
+      "description": "Uniform-disc nav on a slat rail; the active tenant ignites. IMG_2038.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/SignDisc.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "clipboard-list",
+      "type": "registry:component",
+      "description": "Hanging numbered clipboard list with honest stock states. IMG_2055.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/ClipboardList.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "arch-frame",
+      "type": "registry:component",
+      "description": "Arch-topped frame + night arcade grid that ignites on hover. IMG_2044/2052.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/ArchFrame.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "directory",
+      "type": "registry:component",
+      "description": "Floor directory as an etched section drawing; rows light their windows. IMG_2042.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/Directory.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "obi",
+      "type": "registry:component",
+      "description": "Quiet ground, one dense information band. IMG_2029.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/Obi.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "menu-card",
+      "type": "registry:component",
+      "description": "Laminated product card: pastel header, topping pills, sticker states. IMG_2024–2026.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/MenuCard.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "glaze-grid",
+      "type": "registry:component",
+      "description": "Kiln-varied imperfect grid with grout gaps; one cell signed. IMG_2060/2061.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/GlazeGrid.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "fin-rail",
+      "type": "registry:component",
+      "description": "Irregular vertical fins as divider/progress. IMG_2032/2090.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/FinRail.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "balcony-stack",
+      "type": "registry:component",
+      "description": "Zigzag stepper where light climbs the stack. IMG_2063/2093.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/BalconyStack.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "lantern",
+      "type": "registry:component",
+      "description": "Focus dialog: the page falls dark, one warm point. IMG_2049.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/Lantern.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "scaffold",
+      "type": "registry:component",
+      "description": "Loading as visible care: propped skeleton, no shimmer. IMG_2075–2082.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/Scaffold.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "provenance-plaque",
+      "type": "registry:component",
+      "description": "Attribution with ceremony: verdigris on walnut. IMG_2088/2077.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/ProvenancePlaque.tsx", "type": "registry:component" }]
+    },
+    {
+      "name": "blind-box",
+      "type": "registry:component",
+      "description": "Market register collection grid; hover peeks, click reveals. IMG_2110/2111/2102.",
+      "registryDependencies": ["senko-tokens", "senko-primitives"],
+      "files": [{ "path": "workbench/src/senko/components/BlindBox.tsx", "type": "registry:component" }]
+    }
+  ]
+}

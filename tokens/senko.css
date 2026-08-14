@@ -1,0 +1,147 @@
+/* ============================================================
+   SENKO 線弧 — design tokens
+   "Line + arc" (線 sen, 弧 ko); also 閃光 senkō, a flash of light.
+   Every value traces to photos in this repo (IDs cited inline).
+   Tailwind v4: import this file after `@import "tailwindcss";`
+   ============================================================ */
+
+@theme {
+  /* ---- color primitives (observed) ---- */
+  /* paper grounds — menus 2023/2024, hotel book 2044, book cover 2029 */
+  --color-paper-0: #FAF7EF;
+  --color-paper-1: #F3EEE2;
+  --color-paper-2: #E5DDCB;
+  --color-paper-3: #D5CDB8;
+  /* sumi inks — machiya slats 2083/2091, statue 2078, hydrant ring 2113 */
+  --color-ink-950: #14161A;
+  --color-ink-900: #22262E;
+  --color-ink-700: #343A44;
+  --color-ink-500: #5A626E;
+  --color-ink-300: #9AA1AB;
+  /* porcelain / glaze — Kutani plaques 2050, Futa tiles 2060/2061 */
+  --color-glaze-0: #EFEAE0;
+  --color-glaze-1: #E2DCCE;
+  --color-grout: #C8BBA8;
+  /* wood — oak counter 2061, beams 2077, walnut menu 2023 */
+  --color-hinoki: #C9A87C;
+  --color-walnut: #6A5849;
+  /* garden — Kenrokuen moss 2073/2075 */
+  --color-moss-600: #65746E;
+  --color-moss-400: #879379;
+  /* water — milky teal bath page 2048 */
+  --color-teal-milk: #688488;
+  /* patina — preservation plaque 2088 */
+  --color-verdigris: #7BA08F;
+  /* light — night arches 2052, lamps 2049, golden hour 2093 */
+  --color-amber-300: #F5C168;
+  --color-amber-500: #E8A33D;
+  --color-amber-700: #B97722;
+  --color-gold-dusk: #C97B2D;
+  /* the single saturated accent — red door 2092, ukiyo-e flags 2101 */
+  --color-vermillion: #A93A2C;
+  /* market register — SMISKI boxes 2110/2111, hanafuda 2102, toy UI 2104 */
+  --color-sun: #EDD94A;
+  --color-sky: #9FD3E8;
+  --color-sakura: #F2C6D3;
+  --color-mint: #BCDCC0;
+  --color-grape: #6E5497;
+
+  /* ---- geometry: line + arc only (Kutani plaques 2050, directory 2042) ----
+     Corners are either sharp (line) or one of these arcs. No in-between. */
+  --radius-arc-1: 6px;
+  --radius-arc-2: 12px;
+  --radius-arc-3: 24px;
+  --radius-arch: 999px; /* full arch top — 2044 vignettes, 2052 windows */
+  --spacing-grout-1: 3px;  /* thick-grout gaps — 2060/2061 */
+  --spacing-grout-2: 7px;
+
+  /* ---- motion vocabulary ---- */
+  /* settle: overshoot then caught by the prop — supported pines 2075–2082 */
+  --ease-settle: cubic-bezier(0.22, 1.12, 0.32, 1);
+  /* ignite: slow warm-up, no bounce — night arches 2052, lamps 2049 */
+  --ease-ignite: cubic-bezier(0.55, 0.06, 0.28, 0.99);
+  /* drift: near-linear glide — haze 2054, water 2048 */
+  --ease-drift: cubic-bezier(0.33, 0.0, 0.2, 1);
+  /* pop: market register only — blind-box reveal 2110/2111 */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-beat-1: 160ms;
+  --duration-beat-2: 320ms;
+  --duration-beat-3: 560ms;
+  --duration-beat-4: 900ms;
+}
+
+/* ---- semantic layer + registers ----
+   paper: cream calm, sparse color events (default)
+   market: dense joy — flip with data-register="market" on any ancestor */
+:root, [data-register="paper"] {
+  --sk-ground: var(--color-paper-1);
+  --sk-surface: var(--color-paper-0);
+  --sk-surface-raised: #FFFFFF;
+  --sk-ink: var(--color-ink-900);
+  --sk-ink-soft: var(--color-ink-500);
+  --sk-rule: color-mix(in oklab, var(--color-ink-900) 18%, transparent);
+  --sk-accent: var(--color-vermillion);
+  --sk-glow: var(--color-amber-500);
+  --sk-glow-soft: color-mix(in oklab, var(--color-amber-500) 24%, transparent);
+  --sk-night: var(--color-ink-950);
+  --sk-radius: var(--radius-arc-1);
+  --sk-grout: var(--spacing-grout-1);
+  --sk-ease-enter: var(--ease-settle);
+  --sk-stagger: 70ms;
+  --sk-sheen: rgba(255, 255, 255, 0.45);
+  --sk-font: Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+[data-register="market"] {
+  --sk-ground: #FDF6E9;
+  --sk-surface: #FFFFFF;
+  --sk-surface-raised: #FFFFFF;
+  --sk-ink: #3A3430;
+  --sk-ink-soft: #8A7F72;
+  --sk-rule: color-mix(in oklab, #3A3430 14%, transparent);
+  --sk-accent: var(--color-grape);
+  --sk-glow: var(--color-sun);
+  --sk-glow-soft: color-mix(in oklab, var(--color-sun) 32%, transparent);
+  --sk-night: #2A2440;
+  --sk-radius: var(--radius-arc-3);
+  --sk-grout: var(--spacing-grout-2);
+  --sk-ease-enter: var(--ease-pop);
+  --sk-stagger: 45ms;
+  --sk-sheen: rgba(255, 255, 255, 0.55);
+  --sk-font: "Avenir Next", "Trebuchet MS", system-ui, sans-serif;
+}
+/* ---- night mode (orthogonal to register) ----
+   The observed dark mode: IMG_2049 lamps, IMG_2052 arch hotel, IMG_2062/2063
+   stair towers, IMG_2095. Ground goes near-black, text goes paper, and the
+   accent becomes light itself (amber). Flip with data-mode="night".
+   Declared after the register blocks so it wins the shared properties. */
+[data-mode="night"] {
+  --sk-ground: var(--color-ink-950);
+  --sk-surface: var(--color-ink-900);
+  --sk-surface-raised: var(--color-ink-700);
+  --sk-ink: var(--color-paper-1);
+  --sk-ink-soft: var(--color-ink-300);
+  --sk-rule: color-mix(in oklab, var(--color-paper-1) 16%, transparent);
+  --sk-accent: var(--color-amber-500);
+  --sk-glow: var(--color-amber-500);
+  --sk-glow-soft: color-mix(in oklab, var(--color-amber-500) 30%, transparent);
+  --sk-night: #000000;
+  /* at night the glint is lamplight, not daylight */
+  --sk-sheen: color-mix(in oklab, var(--color-amber-300) 55%, transparent);
+}
+/* market × night = the night market (matsuri): lantern-lit density.
+   Covers both nestings: market inside a night page, and both flags on one
+   element. Market's radius/font/tempo carry through untouched. */
+[data-mode="night"] [data-register="market"],
+[data-mode="night"][data-register="market"] {
+  --sk-ground: #241F35;
+  --sk-surface: #2A2440;
+  --sk-surface-raised: #3A3358;
+  --sk-ink: #F5EFDC;
+  --sk-ink-soft: #A79FC0;
+  --sk-rule: color-mix(in oklab, #F5EFDC 18%, transparent);
+  --sk-accent: var(--color-sun);
+  --sk-glow: var(--color-sun);
+  --sk-glow-soft: color-mix(in oklab, var(--color-sun) 30%, transparent);
+  --sk-night: #000000;
+  --sk-sheen: color-mix(in oklab, var(--color-sun) 55%, transparent);
+}

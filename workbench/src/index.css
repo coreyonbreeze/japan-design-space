@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "../../tokens/senko.css";
+
+body {
+  background: var(--sk-ground);
+  color: var(--sk-ink);
+  font-family: var(--sk-font);
+}
